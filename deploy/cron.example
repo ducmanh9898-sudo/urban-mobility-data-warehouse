@@ -1,0 +1,3 @@
+# Local WSL ingestion: every 15 minutes.
+# Replace the project path when deploying to another machine.
+*/15 * * * * /bin/bash /home/strongermany/projects/urban-mobility-data-warehouse/scripts/run_scheduled.sh cron
