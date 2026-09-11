@@ -116,6 +116,7 @@ def main():
     temporary_path.replace(output_dir / "manifest.json")
 
     print("Collection completed.", flush=True)
+    return output_dir / "manifest.json"
 
 
 if __name__ == "__main__":
