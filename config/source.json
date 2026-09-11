@@ -1,0 +1,10 @@
+{
+  "discovery_url": "https://gbfs.citibikenyc.com/gbfs/2.3/gbfs.json",
+  "language": "en",
+  "expected_version": "2.3",
+  "timeout_seconds": 30,
+  "feeds": [
+    "station_information",
+    "station_status"
+  ]
+}
